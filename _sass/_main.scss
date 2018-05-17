@@ -5,3 +5,21 @@ body, .text-crimson {
 p {
     font-family: 'open Sans', sans-serif;
 }
+
+.jumbotron-fluid {
+    background-image: url('/images/bg.jpg');
+    height: 100vh;
+    position: relative;
+    top: -75px;
+    z-index: -1;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    position: relative;
+    top: -50px;
+}
