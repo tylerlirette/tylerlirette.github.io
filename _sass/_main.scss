@@ -8,10 +8,8 @@ p {
 
 .jumbotron-fluid {
     background-image: url('/images/bg.jpg');
-    height: 100vh;
     position: relative;
-    top: -75px;
-    z-index: -1;
+    padding-bottom: 3rem;
 }
 
 .vertical-center {
@@ -41,5 +39,11 @@ p {
 }
 
 img.logo {
-    width: 100px;
+    width: 65px;
+}
+
+.tyler {
+    max-width: 400px;
+    width: 80%;
+    padding-bottom: 2rem;
 }
