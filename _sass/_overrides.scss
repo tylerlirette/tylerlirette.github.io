@@ -28,3 +28,8 @@
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary.focus, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(29, 43, 30, 0.5);
 }
+
+.form-control:focus {
+  border-color: #c3c3c3;
+  box-shadow: 0 0 0 0.2rem rgba(68, 132, 84, 0.25);
+}
