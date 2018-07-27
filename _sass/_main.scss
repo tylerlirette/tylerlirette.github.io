@@ -6,10 +6,15 @@ p {
     font-family: 'open Sans', sans-serif;
 }
 
+.body-content {
+    margin-top: 91px;
+}
+
 .jumbotron-fluid {
     background-image: url('/images/bg.jpg');
     position: relative;
     padding-bottom: 3rem;
+    margin-top: 91px;
 }
 
 .vertical-center {
@@ -36,6 +41,21 @@ p {
         color: rgba(0,0,0,.7);
         text-decoration: none;
     }
+}
+
+.bg-transparent {
+    background: transparent;
+    transition: all 0.3s ease-in;
+}
+
+.bg-white {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in;
+}
+
+li.nav-item {
+    font-size: 1.2rem;
 }
 
 img.logo {
@@ -65,32 +85,35 @@ img.logo {
 .navbar-toggler {
   border: none;
   background: transparent !important;
-}
  
-.navbar-toggler .top-bar {
-  transform: rotate(45deg);
-  transform-origin: 10% 10%;
-}
+    .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+    }
  
-.navbar-toggler .middle-bar {
-  opacity: 0;
-}
+    .middle-bar {
+    opacity: 0;
+    }
  
-.navbar-toggler .bottom-bar {
-  transform: rotate(-45deg);
-  transform-origin: 10% 90%;
+    .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+    }
 }
+
+.navbar-toggler.collapsed {
+
+    .top-bar {
+        transform: rotate(0);
+    }
  
-.navbar-toggler.collapsed .top-bar {
-  transform: rotate(0);
-}
+    .middle-bar {
+        opacity: 1;
+    }
  
-.navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
-}
- 
-.navbar-toggler.collapsed .bottom-bar {
-  transform: rotate(0);
+    .bottom-bar {
+        transform: rotate(0);
+    }
 }
 
 button.navbar-toggler:focus {
